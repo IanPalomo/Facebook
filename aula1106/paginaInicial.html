@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
 
-  <body class="bg-light">
+  <body style="background-color: #e9ebee; " >
 
   
 	<!-- Seu código vai aqui! -->
@@ -42,7 +42,6 @@
             <button href="" class="btn btn-lg text-white my-4 ml-2" style=" background-color: #4267b2; border:solid 1px black; font-size: 12px; width:65 px; height: 27px"><b>Entrar</b>
             </button>
           </div>
-          
 
         </div>
         
@@ -58,49 +57,176 @@
     </div>
   </nav>
 
-  <div class="container my-4">
+  <div class="container my-4 ">
+  	<div class="row">
+  		<div class="col">
+  			<div class="row">
+  				<h1>Logins recentes</h1>
+  			</div>
+  			<div class="row">
+  				<p style="font-size: 20px"><font face="Arial">Clique na sua foto ou adicione uma conta.</font></p>
+  			</div>
 
-    <div class="col-5">
-      <div class="row">
-        <h1>Logins recentes</h1>
-      </div>
-      <div class="row">
-        <p style="font-size: 20px"><font face="Arial">Clique na sua foto ou adicione uma conta.</font></p>
-      </div>
+  			<div class="row">
+  				<a href="" class="text-dark" style="text-decoration: none;">
+  					<div class="card" style="width: 12rem;">
+  						<img class="card-img-top" src="./img/people.png" alt="Card image cap">
+  						<div class="card-body text-justify text-center py-2">
+  							<font face="Arial" style="font-size: 20px">Ian</font>
+  						</div>
+  					</div>
+  				</a>
 
-      <div class="row">
-      <a href="" class="text-dark" style="text-decoration: none;">
-        <div class="card" style="width: 12rem;">
-        <img class="card-img-top" src="./img/people.png" alt="Card image cap">
-        <div class="card-body text-justify text-center py-2">
-          <font face="Arial" style="font-size: 20px">Ian</font>
-        </div>
-        </div>
-      </a>
-
-      <a href="" class="text-dark" style="text-decoration: none;">
-        <div class="card mx-3 text-justify text-center" style="width: 12rem; height: 15rem;">
-        <i class="fas fa-plus-circle my-5" style="color: #4267b2; font-size: 75px"></i>
-        <div class="card-body text-justify text-center py-3 my-3">
-          <font face="Arial" style="font-size: 18px; color:#4267b2">Adicionar conta</font>
-        </div>
-        </div>
-      </a>
-      </div>
-    </div>
-      
-      
-
-      <div class="col-7">
-        <div class="row">
-          <h1>Criar uma nova conta</h1>
-        </div>
-      </div>
-    
+  				<a href="" class="text-dark" style="text-decoration: none;">
+  					<div class="card mx-3 text-justify text-center" style="width: 12rem; height: 15rem;">
+  						<i class="fas fa-plus-circle my-5" style="color: #4267b2; font-size: 75px"></i>
+  						<div class="card-body text-justify text-center py-3 my-3">
+  							<font face="Arial" style="font-size: 18px; color:#4267b2">Adicionar conta</font>
+  						</div>
+  					</div>
+  				</a>
+  			</div>
+  		</div>
 
 
 
+  		<div class="col">
+  			<div class="row mx-1">
+  				<h1>Criar uma nova conta</h1>
+  			</div>
+  			<div class="row mx-1 ">
+  				<p style="font-size: 20px"><font face="Arial">É gratuito e sempre será.</font></p>
+  			</div>
+  			<form>
+
+  				<div class="form-group"></div>
+  				<div class="row">
+  					<div class="col-5">
+  						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nome">
+  					</div>
+  					<div class="col-5">
+  						<div class="form-group">
+  							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Sobrenome">
+  						</div>
+  					</div>
+  				</div>
+  				<div class="row">
+  					<div class="col-10">
+  						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Celular ou Email">
+  					</div>
+  				</div>
+  				<div class="row my-3">
+  					<div class="col-10">
+  						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nova senha">
+  					</div>
+  				</div>
+  				<div class="row">
+  					<p class="mx-3" style="font-size: 20px"><font face="Arial"><b>Data de Nascimento</b></font></p>
+  				</div>
+  				<div class="row mx-2">
+
+  					</<fieldset class="date ">  
+  						<select id="month_start" 
+  						name="month_start" /> 
+  						<option>Janeiro</option>       
+  						<option>Fevereiro</option>       
+  						<option>Março</option>       
+  						<option>Abril</option>       
+  						<option>Maio</option>       
+  						<option>Junho</option>       
+  						<option>Julho</option>       
+  						<option>Agosto</option>       
+  						<option>Setembro</option>       
+  						<option>Outubro</option>       
+  						<option>Novembro</option>       
+  						<option>Dezembro</option>       
+  					</select>
+  					<select id="day_start" 
+  					name="day_start"/> 
+  					<option>1</option>       
+  					<option>2</option>       
+  					<option>3</option>       
+  					<option>4</option>       
+  					<option>5</option>       
+  					<option>6</option>       
+  					<option>7</option>       
+  					<option>8</option>       
+  					<option>9</option>       
+  					<option>10</option>       
+  					<option>11</option>       
+  					<option>12</option>       
+  					<option>13</option>       
+  					<option>14</option>       
+  					<option>15</option>       
+  					<option>16</option>       
+  					<option>17</option>       
+  					<option>18</option>       
+  					<option>19</option>       
+  					<option>20</option>       
+  					<option>21</option>       
+  					<option>22</option>       
+  					<option>23</option>       
+  					<option>24</option>       
+  					<option>25</option>       
+  					<option>26</option>       
+  					<option>27</option>       
+  					<option>28</option>       
+  					<option>29</option>       
+  					<option>30</option>       
+  					<option>31</option>       
+  				</select>
+
+  			<select id="year_start" name="year_start" />
+  				<option>Ano</option>
+  				<option>2018</option>
+  				<option>2017</option> 
+  				<option>2016</option>
+  				<option>2015</option>
+  				<option>2014</option>
+  				<option>2013</option>
+  				<option>2012</option>
+  				<option>2011</option>
+  				<option>2010</option>
+  				<option>2009</option>  
+  				<option>2008</option>
+  			</select> 
+  		</fieldset>
+  		<div>
+  			<a href="" style="color: #4267b2"><small style="font-size: 10px">Por que preciso informar minha data de nascimento?</small></a>
+  		</div>
+
+  	</form>
   </div>
+
+  <div class="row my-2 mx-2">
+  	<div class="form-check">
+  		<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+  		<label class="form-check-label" for="exampleRadios1" style="font-size: 20px">
+  			<font face="Arial">Feminino</font>
+  		</label>
+  	</div>
+  	<div class="form-check mx-2">
+  		<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  		<label class="form-check-label" for="exampleRadios2" style="font-size: 20px">
+  			<font face="Arial">Masculino</font>
+  		</label>
+  	</div>
+  </div>
+
+  <div class="col-7">
+  	<small style="font-size: 10px; color:#777777 ">Ao clicar em Inscreva-se, você concorda com nossos Termos, <a href="" style="color: #4267b2 ">Política de Dados</a> e <a href="" style="color: #4267b2">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</small>
+  </div>
+
+<div class="row mx-3 my-2">
+<button type="button" class="btn btn-success col-6">Inscreva-se</button>
+</div>
+<hr>
+<p><a href="" style="color: #4267b2">Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
+</div>
+
+
+
+</div>
 
 
   <footer class="bg-white"></footer>
