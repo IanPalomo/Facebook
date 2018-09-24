@@ -2,3 +2,91 @@
     font-family: facebook;
     src: url(FACEBOLF.otf);
 }
+
+#perfil:hover{
+	background-color: #345192;
+}
+
+#conjunto{
+	margin-left: -400px;
+}
+
+#divisao{
+	margin: 0px 3px 0px 3px;
+}
+
+#paginaInicial:hover{
+	background-color: #345192; 
+}
+
+#divisao2 {
+	margin: 0px 15px 0px 15px;
+}
+
+.logobranca 
+{
+	margin-left:120px; 
+}
+
+/* Fim-LogoBranca*/
+
+/*Foto Nome*/
+.nomefoto
+{
+	margin-top: 10px;
+}
+
+/*Texto Foto */
+.textofoto 
+{
+	margin-left: 40px;
+	margin-top: -25px;
+}
+
+/*Icone Foto */
+.iconefoto 
+{
+	color:#36538d;
+	margin-left: 220px;
+	margin-top: -27px;
+}
+
+/*Icone*/
+#botaoamigos
+{
+	margin-left:-13px;		
+}
+
+#icon
+{
+	margin-left: -6px;
+	color: #0D1423;
+}
+
+#botao
+{
+	margin-left:-19px;
+}
+
+#botaosino
+{
+	margin-left: -15px;
+	padding-right: 2px;
+}
+
+#divisor
+{
+	
+}
+
+#botaoajuda
+{
+	margin-left:-10px;
+}
+
+/*Corpo Feed*/
+.fotofeed
+{
+	margin-left: 67px;
+	padding-right: 7px;
+}
