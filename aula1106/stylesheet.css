@@ -23,70 +23,85 @@
 	margin: 0px 15px 0px 15px;
 }
 
+#primeiralinha{
+	margin-left: 330px;
+	margin-top: 5px;
+	height: 50px;
+	width: 175px
+}
+#perfilzin:hover{
+	background-color: #f5f6f7
+}
+
+#tl:hover{
+	background-color: #f5f6f7
+}
+
+#messenger:hover{
+	background-color: #f5f6f7
+}
+
+#marketplace:hover{
+	background-color: #f5f6f7
+}
+
 .logobranca 
 {
 	margin-left:120px; 
 }
 
-/* Fim-LogoBranca*/
+#feed{
+	margin-top: -30px;
+	margin-left: 550px;
+	width: 470px;
+	height: 140px
+}
 
-/*Foto Nome*/
-.nomefoto
-{
+#post1{
+margin-top: 0px;
+	margin-left: 550px;
+	width: 470px;
+	height: 630px
+}
+
+#post2{
+	margin-top: 0px;
+	margin-left: 550px;
+	width: 470px;
+	height: 855px
+}
+
+#stories{
+	border-radius: 2px;
+	margin-top: -1640px;
+	margin-left: 1050px;
+	width: 300px
+}
+
+#stories2{
+	border-radius: 2px;
 	margin-top: 10px;
+	margin-left: 1050px;
+	width: 300px
 }
 
-/*Texto Foto */
-.textofoto 
-{
-	margin-left: 40px;
-	margin-top: -25px;
+#stories3{
+	border-radius: 2px;
+	margin-top: 10px;
+	margin-left: 1050px;
+	width: 300px;
+	height: 430px;
 }
 
-/*Icone Foto */
-.iconefoto 
-{
-	color:#36538d;
-	margin-left: 220px;
-	margin-top: -27px;
-}
-
-/*Icone*/
-#botaoamigos
-{
-	margin-left:-13px;		
-}
-
-#icon
-{
-	margin-left: -6px;
-	color: #0D1423;
-}
-
-#botao
-{
-	margin-left:-19px;
-}
-
-#botaosino
-{
-	margin-left: -15px;
-	padding-right: 2px;
-}
-
-#divisor
-{
-	
-}
-
-#botaoajuda
-{
-	margin-left:-10px;
-}
-
-/*Corpo Feed*/
-.fotofeed
-{
-	margin-left: 67px;
-	padding-right: 7px;
+#stories4{
+	border-radius: 2px;
+	margin-top: 10px;
+	margin-left: 1050px;
+	width: 300px
+}  
+#stories5{
+	border-radius: 2px;
+	margin-top: 10px;
+	margin-left: 1050px;
+	width: 300px	
 }
